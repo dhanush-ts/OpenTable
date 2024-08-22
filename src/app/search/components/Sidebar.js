@@ -1,6 +1,6 @@
 export default function Sidebar() {
   return (
-    <div className='max-w-vs mx-2'>
+    <div className='hidden md:block max-w-vs mx-2'>
       <div className='text-xs py-4 border-b'>
           <strong className='text-sm'>Region</strong>
           <p >Toronto</p>
