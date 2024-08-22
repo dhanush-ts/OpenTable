@@ -7,8 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      minWidth:{
+        "req": "600px",
+      },
       maxWidth: {
-        "vs": "180px", // Changed from "max-w-vs" to "vs" to follow Tailwind's pattern
+        "vs": "180px",
+        "bk": "130px",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
